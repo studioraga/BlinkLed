@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "934795523841",
+    "firebase_url": "https://blinkled-792bc.firebaseio.com",
+    "project_id": "blinkled-792bc",
+    "storage_bucket": "blinkled-792bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934795523841:android:d156eafc7c6965ab",
+        "android_client_info": {
+          "package_name": "com.ncs.studioraga.blinkled"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934795523841-goolgjg1pbtilo35nhb4vias6gdmov9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7JI-pJhNm0dH4FlEWpe4JxnWBpyzf114"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
