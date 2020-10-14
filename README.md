@@ -6,19 +6,19 @@ the blinking delay of an LED bulb realtime over the air for Raspberry Pi 3 board
 
 Steps:
 
-1) Create a new android project.
+Step 1: Create a new android project.
 
-2) Get the board schematics and hardware connection right.
+Step 2: Get the board schematics and hardware connection right.
 
-3) Grab the sample-simplepio as the starting point and refer the aplication file of blink.
+Step 3: Grab the sample-simplepio as the starting point and refer the aplication file of blink.
 
-4) Main Activity file is BlinkLedActivity.java where firebase Listner is implemented.
+Step 4: Main Activity file is BlinkLedActivity.java where firebase Listner is implemented.
 
-5) BoardDefaults.java is associated with SoC board in reference used and it GPIO pin configured.
+Step 5: BoardDefaults.java is associated with SoC board in reference used and it GPIO pin configured.
 
-6) Modify these following files to suite your build correct:
+Step 6: Modify these following files to suite your build correct:
 
-7) Project-level build.gradle (<project>/build.gradle):
+Step 7: Project-level build.gradle (<project>/build.gradle):
 
   buildscript {
   dependencies {
@@ -27,12 +27,12 @@ Steps:
     }
   }
 
-8) App-level build.gradle (<project>/<app-module>/build.gradle):
+Step 8: App-level build.gradle (<project>/<app-module>/build.gradle):
 
   // Add to the bottom of the file
   apply plugin: 'com.google.gms.google-services' 
 
-9) Add Firebase to your Android app. https://console.firebase.google.com/
+Step 9: Add Firebase to your Android app. https://console.firebase.google.com/
 
    This has 3 steps - 
 
